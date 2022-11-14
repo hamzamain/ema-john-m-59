@@ -1,0 +1,46 @@
+.header {
+    height: 80px;
+    background-color: #1C2B35;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+.user-name {
+    color: white;
+    margin-left: 55px;
+}
+
+.link-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-photo {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    margin-left: 20px;
+}
+
+.btn-logout {
+    margin-left: 20px;
+    background-color: orange;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.header a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: 36px;
+}
+
+.header a:hover {
+    color: orange;
+}
